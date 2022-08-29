@@ -1,5 +1,5 @@
 # ogbox
 
-![Overview schematic](overview.png)
+![Overview schematic](overview.PNG)
 
 ![OGBox wiring diagram](schematic.png)
