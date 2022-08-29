@@ -1,0 +1,7 @@
+function close_ogbox(s_ogbox)
+% s_ogbox: OGBox Ardino serial port object.
+
+fprintf('Stopping OGBox arduino\n');
+fclose(s_ogbox);
+
+end
