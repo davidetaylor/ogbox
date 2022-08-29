@@ -1,0 +1,12 @@
+function update_ogbox( s_ogbox, ogbox_parameters )
+% s_ogbox: OGBox Arduino serial object
+% ogbox_parameters: struct with OGBox parameters (intensity, cyclewidth, pulsewidth)
+
+% Convert parameters to message string
+message = sprintf('%d,', cell2mat(struct2cell(ogbox_parameters)));
+message(end) = '';
+
+% send message string over serial connection
+fprintf(s_ogbox, message); % send command to arduino
+
+end
