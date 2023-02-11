@@ -2,7 +2,7 @@
 
 // Pin definitions
 #define TRIGGER_PIN 5
-#define STIM_MODE_PIN 8
+#define STIM_MODE_PIN 8   // TRIGGERED mode = LOW, PREVIEW mode = HIGH
 #define DEBUG_LED_PIN 13
 // PIN 2: Reserved for Adafruit_MCP4725 i2c SDA 
 // PIN 3: Reserved for Adafruit_MCP4725 i2c SCL
