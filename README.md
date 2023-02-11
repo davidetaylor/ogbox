@@ -5,7 +5,7 @@ Pattern generator for optogenetic experiments.
 
 1. Print case and assemble electronics based on wiring diagram.
 2. Label the BNCs as "Trigger IN" and "Voltage OUT"
-3. Connect to PC via USB and install the Arduino sketch ("arduino/OGBox/OGbox.ino") using Arduino IDE
+3. Connect the OGBox to computer via USB. Next, install the Adafruit_MCP4725 library by copying it from "firmware/libraries" to the Arduino "libraries" folder on you computer (on Windows this is C:Users\%USERNAME%\Documents\Arduino\libraries). Finally, compile and upload the firmware sketch (OGBox.ino) using the Arduino IDE.
 4. You can verify that the OGBox is working correctly by connecting the output to an oscilloscope or LED driver and setting the toggle switch to Debug Mode. The default pattern should be a 1Hz pulse. (Note: if you don't see anything initially, the toggle switch might be set to Triggered Mode instead of Debug Mode).
 
 | Part  | Source |  Quantity |
