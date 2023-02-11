@@ -17,12 +17,12 @@ Pattern generator for optogenetic experiments.
 | Female BNC leads | https://www.digikey.com/en/products/detail/pomona-electronics/4969/603340  |  2  |
 | Case | 3D printed  |  1  |
 
-![OGBox wiring diagram](schematic.png)
+![OGBox wiring diagram](images/schematic.png)
 
 ## Integrating OGBox into setup
 
 ### Overview
-![Overview](overview.PNG)
+![Overview](images/overview.PNG)
 
 ### Step-by-step
 1. The OGBox is used to operate Thorlabs T-Cubes which are set to Modulation Mode (i.e., the cube output current exactly follows the amplitude and waveform of the voltage input signal independent from the knob setting). Connect the output of the OGBox to the T-Cube "MOD IN" with a BNC cable.
