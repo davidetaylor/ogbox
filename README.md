@@ -18,6 +18,9 @@ Pattern generator for optogenetic experiments.
 | Case | 3D printed  |  1  |
 
 ![OGBox wiring diagram](images/schematic.png)
+<img src="images/ogbox_front.JPG" width="500">
+<img src="images/ogbox_top1.JPG" width="300">
+<img src="images/ogbox_top2.JPG" width="300">
 
 ## Integrating OGBox into setup
 
