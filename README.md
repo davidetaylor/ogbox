@@ -28,7 +28,7 @@ Pattern generator for optogenetic experiments.
 ![Overview](images/overview.PNG)
 
 ### Step-by-step
-1. The OGBox is used to operate Thorlabs T-Cubes which are set to Modulation Mode (i.e., the cube output current exactly follows the amplitude and waveform of the voltage input signal independent from the knob setting). Connect the output of the OGBox to the T-Cube "MOD IN" with a BNC cable.
+1. The OGBox is used to operate [Thorlabs T-Cubes](https://www.thorlabs.com/newgrouppage9.cfm?objectgroup_id=2616) which are set to Modulation Mode (i.e., the cube output current exactly follows the amplitude and waveform of the voltage input signal independent from the knob setting). Connect the output of the OGBox to the T-Cube "MOD IN" with a BNC cable.
 2. There are two different operation modes for the OGBox: TRIGGERED and PREVIEW modes. In TRIGGERED mode the OGBox will only output while the Trigger Input is high (5V). In PREVIEW mode, the stimulus pattern will repeat indefinitely.
 3. The OGBox generates patterned waveforms based on three parameters: Intensity, Cyclelength, and Pulselength. These parameters are set via the USB connection with the Behavioral Control PC. The code in "matlab/demo.m" explains how to change OGBox parameters.
     - Intensity (ranges from 0-4095 and is proportional to maximum power output of the LED)
